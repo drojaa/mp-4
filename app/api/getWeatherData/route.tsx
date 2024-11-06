@@ -1,7 +1,7 @@
 import {NextResponse} from "next/server";
 export const dynamic = "force-dynamic";
 
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+const WEATHER_API_KEY = "L9ZG6Y9VLCKJHHS4QSKER99B3"
 
 export async function GET(request: Request): Promise<NextResponse>{
     // Using String-deconstruction, extract search parameters from the UrL
